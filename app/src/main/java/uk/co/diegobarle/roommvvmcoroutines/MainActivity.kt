@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun sendComment(view: View){
-        val message = Comment(0, commentEditText.getText().toString())
+        val message = Comment(0, commentEditText.text.toString())
         commentVM.setMessage(message)
         commentEditText.setText("")
     }
