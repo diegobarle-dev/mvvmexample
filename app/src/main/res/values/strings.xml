@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">Room MVVM Coroutines</string>
+    <string name="app_name">CommentIt!</string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="preview_image">Preview image</string>
 </resources>
